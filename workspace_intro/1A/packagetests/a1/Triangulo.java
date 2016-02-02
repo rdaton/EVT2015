@@ -5,29 +5,29 @@ public class Triangulo {
 	public enum TipoTriangulo{
 		INVALIDO,EQUILATERO,ISOCELES,ESCALENO 
 		}
-	int producto(int[] unar)
+	static int producto(int[] unar)
 	{
 		return unar[0]*unar[1]*unar[2];
 	}
-	boolean factible (int[] unar)
+	static boolean factible (int[] unar)
 	{
 		return (unar[0]+unar[1]>unar[2]
 				&&  unar[1]+unar[2]>unar[0]
 				&&  unar[0]+unar[2]>unar[1]
 						);
 	}
-	boolean iguales(int[] unar)
+	static boolean iguales(int[] unar)
 	{
 		return (unar[0]==unar[1] && unar[1]==unar[2] && unar[0]==unar[2]);
 	}
-	boolean dosIguales(int[] unar)
+	static boolean dosIguales(int[] unar)
 	{
 		return ((unar[0]==unar[1] && unar[1]==unar[2] && unar[0]!=unar[2])
 				|| (unar[0]!=unar[1] && unar[1]==unar[2] && unar[0]==unar[2])
 				|| (unar[0]==unar[1] && unar[1]!=unar[2] && unar[0]==unar[2])
 				);
 	}
-	 TipoTriangulo tipoDeTriangulo(int a, int b, int c)
+	 static TipoTriangulo tipoDeTriangulo(int a, int b, int c)
 	{
 		int[] lados={a,b,c};
 		boolean error=false;
