@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InstrumentableItems/>
+<InstrumentableItems>
+<IJavaProject Info="/g2_1">
+<IPackageFragement Info="/g2_1/packageTests/g2_1">
+<ICompilationUnit Info="/g2_1/packageTests/g2_1/EjecutorG2_1.java"/>
+</IPackageFragement>
+</IJavaProject>
+</InstrumentableItems>

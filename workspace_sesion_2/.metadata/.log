@@ -576,3 +576,1109 @@ Caused by: java.lang.IllegalArgumentException: Logging bundle must not be null.
 	at org.eclipse.core.runtime.Platform.getLog(Platform.java:1017)
 	at com.google.gdt.eclipse.platform.jetty.JettyEclipseLogger.<clinit>(JettyEclipseLogger.java:35)
 	... 20 more
+!SESSION 2016-02-02 19:23:01.178 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_66-internal
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86 -data /home/barfelix/EVT2015/workspace_sesion_2
+
+!ENTRY org.eclipse.team.core 4 0 2016-02-02 19:23:19.484
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project g2_1.
+!STACK 1
+org.eclipse.team.core.TeamException: Could not instantiate provider org.eclipse.egit.core.GitProvider for project g2_1.
+	at org.eclipse.team.core.RepositoryProvider.mapNewProvider(RepositoryProvider.java:165)
+	at org.eclipse.team.core.RepositoryProvider.mapExistingProvider(RepositoryProvider.java:235)
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:507)
+	at org.eclipse.team.internal.core.TeamHookDispatcher.getProvider(TeamHookDispatcher.java:97)
+	at org.eclipse.team.internal.core.TeamHookDispatcher.getRuleFactory(TeamHookDispatcher.java:105)
+	at org.eclipse.core.internal.resources.Rules.factoryFor(Rules.java:93)
+	at org.eclipse.core.internal.resources.Rules.modifyRule(Rules.java:145)
+	at org.eclipse.core.internal.resources.Project.touch(Project.java:1401)
+	at org.eclipse.jdt.internal.core.SetContainerOperation.executeOperation(SetContainerOperation.java:115)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:728)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:793)
+	at org.eclipse.jdt.core.JavaCore.setClasspathContainer(JavaCore.java:5269)
+	at org.eclipse.jdt.internal.launching.JREContainerInitializer.initialize(JREContainerInitializer.java:108)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.rebind(LaunchingPlugin.java:360)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.access$0(LaunchingPlugin.java:294)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges$1.run(LaunchingPlugin.java:280)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:728)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5204)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.doit(LaunchingPlugin.java:284)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$JREUpdateJob.run(LaunchingPlugin.java:381)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.team.core 4 0 2016-02-02 19:23:19.506
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project g2_1.
+
+!ENTRY org.eclipse.ui.ide 4 4 2016-02-02 19:24:25.509
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2016-02-02 19:24:25.510
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2016-02-02 19:24:25.510
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers (No existe el fichero o el directorio)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1576)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1656)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2375)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2016-02-02 19:24:27.362 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_66-internal
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86 -data /home/barfelix/EVT2015/workspace_sesion_2
+
+!ENTRY org.eclipse.team.core 4 0 2016-02-02 19:24:44.524
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project g2_1.
+!STACK 1
+org.eclipse.team.core.TeamException: Could not instantiate provider org.eclipse.egit.core.GitProvider for project g2_1.
+	at org.eclipse.team.core.RepositoryProvider.mapNewProvider(RepositoryProvider.java:165)
+	at org.eclipse.team.core.RepositoryProvider.mapExistingProvider(RepositoryProvider.java:235)
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:507)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.isMappedToCVS(CVSLightweightDecorator.java:192)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.decorate(CVSLightweightDecorator.java:147)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:370)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:330)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.team.core 4 0 2016-02-02 19:24:44.527
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project g2_1.
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:42:14.113
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:42:14.202
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-19-42-14-187.xml
+
+!ENTRY org.codecover.eclipse 4 0 2016-02-02 19:42:14.257
+!MESSAGE [FATAL] An error occured when trying to compile the instrumented sources.
+
+!ENTRY org.eclipse.core.resources 4 2 2016-02-02 19:42:14.259
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 75 2016-02-02 19:42:14.320
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2016-02-02 19:42:14.320
+!MESSAGE Errors running builder 'Java Builder' on project 'g2_1'.
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:42:32.110
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:42:32.145
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-19-42-32-142.xml
+
+!ENTRY org.codecover.eclipse 4 0 2016-02-02 19:42:32.235
+!MESSAGE [FATAL] An error occured when trying to compile the instrumented sources.
+
+!ENTRY org.eclipse.core.resources 4 2 2016-02-02 19:42:32.245
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 75 2016-02-02 19:42:32.258
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2016-02-02 19:42:32.258
+!MESSAGE Errors running builder 'Java Builder' on project 'g2_1'.
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:42:40.631
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:42:40.644
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-19-42-40-642.xml
+
+!ENTRY org.codecover.eclipse 4 0 2016-02-02 19:42:40.678
+!MESSAGE [FATAL] An error occured when trying to compile the instrumented sources.
+
+!ENTRY org.eclipse.core.resources 4 2 2016-02-02 19:42:40.688
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 75 2016-02-02 19:42:40.692
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2016-02-02 19:42:40.692
+!MESSAGE Errors running builder 'Java Builder' on project 'g2_1'.
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:44:41.837
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 4 0 2016-02-02 19:44:41.840
+!MESSAGE [FATAL] An error occured when trying to compile the instrumented sources.
+
+!ENTRY org.eclipse.core.resources 4 2 2016-02-02 19:44:41.854
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 75 2016-02-02 19:44:41.889
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2016-02-02 19:44:41.889
+!MESSAGE Errors running builder 'Java Builder' on project 'g2_1'.
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:46:37.450
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 4 0 2016-02-02 19:46:37.452
+!MESSAGE [FATAL] An error occured when trying to compile the instrumented sources.
+
+!ENTRY org.eclipse.core.resources 4 2 2016-02-02 19:46:37.465
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 75 2016-02-02 19:46:37.467
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2016-02-02 19:46:37.468
+!MESSAGE Errors running builder 'Java Builder' on project 'g2_1'.
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:47:09.827
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 4 0 2016-02-02 19:47:09.830
+!MESSAGE [FATAL] An error occured when trying to compile the instrumented sources.
+
+!ENTRY org.eclipse.core.resources 4 2 2016-02-02 19:47:09.835
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 75 2016-02-02 19:47:09.847
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2016-02-02 19:47:09.847
+!MESSAGE Errors running builder 'Java Builder' on project 'g2_1'.
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-02-02 19:47:13.292
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el fichero o el directorio)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1685)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:47:30.287
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 4 0 2016-02-02 19:47:30.297
+!MESSAGE [FATAL] An error occured when trying to compile the instrumented sources.
+
+!ENTRY org.eclipse.core.resources 4 2 2016-02-02 19:47:30.298
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 75 2016-02-02 19:47:30.304
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2016-02-02 19:47:30.304
+!MESSAGE Errors running builder 'Java Builder' on project 'g2_1'.
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:50:49.784
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 4 0 2016-02-02 19:50:50.716
+!MESSAGE [FATAL] An error occured when trying to compile the instrumented sources.
+
+!ENTRY org.eclipse.core.resources 4 2 2016-02-02 19:50:50.718
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 75 2016-02-02 19:50:50.724
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2016-02-02 19:50:50.724
+!MESSAGE Errors running builder 'Java Builder' on project 'g2_1'.
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:51:45.349
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:52:00.630
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:52:08.087
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.eclipse.core.resources 4 568 2016-02-02 19:52:30.246
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el fichero o el directorio)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1685)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:53:05.365
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:53:05.388
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-19-53-05-386.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:58:55.049
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:58:55.062
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-19-58-55-059.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:59:03.875
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-19-53-05-386.xml
+!SESSION 2016-02-02 19:59:06.399 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_66-internal
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86 -data /home/barfelix/EVT2015/workspace_sesion_2
+
+!ENTRY org.eclipse.team.core 4 0 2016-02-02 19:59:20.626
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project g2_1.
+!STACK 1
+org.eclipse.team.core.TeamException: Could not instantiate provider org.eclipse.egit.core.GitProvider for project g2_1.
+	at org.eclipse.team.core.RepositoryProvider.mapNewProvider(RepositoryProvider.java:165)
+	at org.eclipse.team.core.RepositoryProvider.mapExistingProvider(RepositoryProvider.java:235)
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:507)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.isMappedToCVS(CVSLightweightDecorator.java:192)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.decorate(CVSLightweightDecorator.java:147)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:370)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:330)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.team.core 4 0 2016-02-02 19:59:20.628
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project g2_1.
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:59:32.580
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 19:59:32.740
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-19-59-32-725.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:00:35.415
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-19-59-32-725.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:00:35.678
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:00:35.702
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-00-35-700.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:01:26.314
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:01:26.343
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-01-26-341.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:01:36.085
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:01:36.108
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-01-36-106.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:01:40.070
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:01:40.082
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-01-40-080.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:01:43.047
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:01:43.062
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-01-43-057.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:06:02.481
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:06:02.490
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-06-02-488.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:09:32.923
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:13:09.749
+!MESSAGE Calculated coverage for 6 metrics, 8 test cases and 28 coverable items in 5 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:19:33.423
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:20:57.100
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:20:57.121
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-20-57-119.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:21:02.105
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:21:02.122
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-21-02-120.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:21:20.364
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 28 coverable items in 2 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:21:21.670
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 28 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:21:23.033
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 28 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:21:24.131
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 28 coverable items in 3 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:21:29.835
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 28 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:21:30.465
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 28 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:21:30.981
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 28 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:21:51.012
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 28 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:21:52.135
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 28 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:32:47.232
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:33:01.539
+!MESSAGE Calculated coverage for 6 metrics, 3 test cases and 28 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:33:19.620
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 28 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:33:20.203
+!MESSAGE Calculated coverage for 6 metrics, 3 test cases and 28 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:33:20.981
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 28 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:33:25.208
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:33:32.248
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:33:32.259
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-33-32-257.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:33:45.071
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 28 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:33:59.659
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 28 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:46:40.113
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:46:40.120
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-46-40-118.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:46:55.221
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 28 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:46:56.927
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 28 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:47:02.826
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 28 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 4 0 2016-02-02 20:54:17.667
+!MESSAGE [FATAL] InstrumentationException in CompilationParticipant
+!STACK 0
+org.codecover.instrumentation.java15.parser.ParseException: Encountered "return" at line 35, column 9.
+Was expecting one of:
+    "abstract" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "class" ...
+    "double" ...
+    "enum" ...
+    "final" ...
+    "float" ...
+    "int" ...
+    "interface" ...
+    "long" ...
+    "native" ...
+    "private" ...
+    "protected" ...
+    "public" ...
+    "short" ...
+    "static" ...
+    "strictfp" ...
+    "synchronized" ...
+    "transient" ...
+    "void" ...
+    "volatile" ...
+    <IDENTIFIER> ...
+    "{" ...
+    "}" ...
+    ";" ...
+    "@" ...
+    "<" ...
+    
+	at org.codecover.instrumentation.java15.parser.JavaParser.generateParseException(JavaParser.java:9164)
+	at org.codecover.instrumentation.java15.parser.JavaParser.jj_consume_token(JavaParser.java:9038)
+	at org.codecover.instrumentation.java15.parser.JavaParser.ClassOrInterfaceBody(JavaParser.java:851)
+	at org.codecover.instrumentation.java15.parser.JavaParser.ClassOrInterfaceDeclaration(JavaParser.java:437)
+	at org.codecover.instrumentation.java15.parser.JavaParser.TypeDeclaration(JavaParser.java:349)
+	at org.codecover.instrumentation.java15.parser.JavaParser.CompilationUnit(JavaParser.java:110)
+	at org.codecover.instrumentation.java15.Instrumenter.instrumentThis(Instrumenter.java:122)
+	at org.codecover.instrumentation.Instrumenter.instrumentJob(Instrumenter.java:449)
+	at org.codecover.instrumentation.Instrumenter.instrument(Instrumenter.java:311)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:245)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 2 2016-02-02 20:54:17.670
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: InstrumentationException in CompilationParticipant
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:157)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:253)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.codecover.instrumentation.java15.parser.ParseException: Encountered "return" at line 35, column 9.
+Was expecting one of:
+    "abstract" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "class" ...
+    "double" ...
+    "enum" ...
+    "final" ...
+    "float" ...
+    "int" ...
+    "interface" ...
+    "long" ...
+    "native" ...
+    "private" ...
+    "protected" ...
+    "public" ...
+    "short" ...
+    "static" ...
+    "strictfp" ...
+    "synchronized" ...
+    "transient" ...
+    "void" ...
+    "volatile" ...
+    <IDENTIFIER> ...
+    "{" ...
+    "}" ...
+    ";" ...
+    "@" ...
+    "<" ...
+    
+	at org.codecover.instrumentation.java15.parser.JavaParser.generateParseException(JavaParser.java:9164)
+	at org.codecover.instrumentation.java15.parser.JavaParser.jj_consume_token(JavaParser.java:9038)
+	at org.codecover.instrumentation.java15.parser.JavaParser.ClassOrInterfaceBody(JavaParser.java:851)
+	at org.codecover.instrumentation.java15.parser.JavaParser.ClassOrInterfaceDeclaration(JavaParser.java:437)
+	at org.codecover.instrumentation.java15.parser.JavaParser.TypeDeclaration(JavaParser.java:349)
+	at org.codecover.instrumentation.java15.parser.JavaParser.CompilationUnit(JavaParser.java:110)
+	at org.codecover.instrumentation.java15.Instrumenter.instrumentThis(Instrumenter.java:122)
+	at org.codecover.instrumentation.Instrumenter.instrumentJob(Instrumenter.java:449)
+	at org.codecover.instrumentation.Instrumenter.instrument(Instrumenter.java:311)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:245)
+	... 17 more
+
+!ENTRY org.eclipse.core.resources 4 75 2016-02-02 20:54:17.676
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2016-02-02 20:54:17.676
+!MESSAGE Errors running builder 'Java Builder' on project 'g2_1'.
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: InstrumentationException in CompilationParticipant
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:157)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:253)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.codecover.instrumentation.java15.parser.ParseException: Encountered "return" at line 35, column 9.
+Was expecting one of:
+    "abstract" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "class" ...
+    "double" ...
+    "enum" ...
+    "final" ...
+    "float" ...
+    "int" ...
+    "interface" ...
+    "long" ...
+    "native" ...
+    "private" ...
+    "protected" ...
+    "public" ...
+    "short" ...
+    "static" ...
+    "strictfp" ...
+    "synchronized" ...
+    "transient" ...
+    "void" ...
+    "volatile" ...
+    <IDENTIFIER> ...
+    "{" ...
+    "}" ...
+    ";" ...
+    "@" ...
+    "<" ...
+    
+	at org.codecover.instrumentation.java15.parser.JavaParser.generateParseException(JavaParser.java:9164)
+	at org.codecover.instrumentation.java15.parser.JavaParser.jj_consume_token(JavaParser.java:9038)
+	at org.codecover.instrumentation.java15.parser.JavaParser.ClassOrInterfaceBody(JavaParser.java:851)
+	at org.codecover.instrumentation.java15.parser.JavaParser.ClassOrInterfaceDeclaration(JavaParser.java:437)
+	at org.codecover.instrumentation.java15.parser.JavaParser.TypeDeclaration(JavaParser.java:349)
+	at org.codecover.instrumentation.java15.parser.JavaParser.CompilationUnit(JavaParser.java:110)
+	at org.codecover.instrumentation.java15.Instrumenter.instrumentThis(Instrumenter.java:122)
+	at org.codecover.instrumentation.Instrumenter.instrumentJob(Instrumenter.java:449)
+	at org.codecover.instrumentation.Instrumenter.instrument(Instrumenter.java:311)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:245)
+	... 17 more
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:54:54.611
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:55:23.144
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:55:23.151
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-55-23-149.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:57:05.786
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:57:05.800
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-57-05-798.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:57:13.353
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:57:13.370
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-57-13-368.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:57:21.207
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:57:21.213
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-57-21-211.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:57:38.679
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:57:45.992
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 23 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:57:52.458
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 23 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:58:19.424
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 20:58:41.251
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 23 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 21:02:41.734
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 21:04:27.042
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 21:18:03.413
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-02 21:19:51.790
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-57-21-211.xml

@@ -16,19 +16,16 @@ public class EjecutorG2_1 {
 		//compruebo si entrada está bien
 		esLetraHex=(unaLetra>='a' && unaLetra<='f');
 		esCifra=(unaLetra>='0' && unaLetra<='9');
-		
-		boolean error=!(esCifra || esLetraHex);
+				
 		
 		//proceso
-		if (!error) //if (unaLetra>='a' && unaLetra<='f') OR
+		if (esCifra) //if (unaLetra>='a' && unaLetra<='f') OR
 					//(unaLetra>='0' && unaLetra<='9')
-		{
-			if (esCifra)
-				ret=Character.getNumericValue(unaLetra);
-			else
-				if (esLetraHex)
-					ret=10+unaLetra-'a';
-		}
+			ret=Character.getNumericValue(unaLetra);
+		else
+			if(esLetraHex)
+				ret=10+unaLetra-'a';
+		
 				
 	
 		
