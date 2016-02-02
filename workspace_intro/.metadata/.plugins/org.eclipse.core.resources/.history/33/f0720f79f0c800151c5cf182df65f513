@@ -1,0 +1,25 @@
+package a1;
+
+public class Triangulo {
+	
+	public enum TipoTriangulo{
+		INVALIDO,EQUILATERO,ISOCELES,ESCALENO 
+		}
+	int producto(int[] unar)
+	{
+		return unar[0]*unar[1]*unar[2];
+	}
+	static TipoTriangulo tipoDeTriangulo(int a, int b, int c)
+	{
+		int[] lados={a,b,c};
+		boolean error=false;
+		
+		
+		
+		if (error) return TipoTriangulo.INVALIDO;
+	}
+
+}
+
+
+	

@@ -1,0 +1,46 @@
+package a1;
+
+public class Triangulo {
+	
+	public enum TipoTriangulo{
+		INVALIDO,EQUILATERO,ISOCELES,ESCALENO 
+		}
+	int producto(int[] unar)
+	{
+		return unar[0]*unar[1]*unar[2];
+	}
+	boolean factible (int[] unar)
+	{
+		return (unar[0]+unar[1]>unar[2]
+				&&  unar[1]+unar[2]>unar[0]
+				&&  unar[0]+unar[2]>unar[1]
+						);
+	}
+	boolean iguales(int[] unar)
+	{
+		return (unar[0]==unar[1] && unar[1]==unar[2] && unar[0]==unar[2]);
+	}
+	boolean dosIguales(int[] unar)
+	{
+		return ((unar[0]==unar[1] && unar[1]==unar[2] && unar[0]!=unar[2])
+				|| (unar[0]!=unar[1] && unar[1]==unar[2] && unar[0]==unar[2])
+				(unar[0]==unar[1] && unar[1]!=unar[2] && unar[0]==unar[2])
+				);
+	}
+	 TipoTriangulo tipoDeTriangulo(int a, int b, int c)
+	{
+		int[] lados={a,b,c};
+		boolean error=false;
+		TipoTriangulo unReturn=TipoTriangulo.INVALIDO;
+		
+		if (producto(lados)<=0) return unReturn;
+		if (!factible(lados)) return unReturn;
+		if ()
+		
+		return unReturn;
+	}
+
+}
+
+
+	
