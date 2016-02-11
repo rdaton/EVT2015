@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?><TestSessionContainer xmlns="http://www.codecover.org/xml/testsession-container" Date="1455156234575" TestSessionContainerId="ca52e17a-e30e-4fd1-8c02-4f8a1b09a411" version="1.0">
+<SrcFileList>
+<SrcFile Content="package g2_2;&#10;&#10;public class EjecutorG2_2 {&#10;&#9;&#10;&#9;&#10;&#9; &#10;&#9;static public int reRedonda (int[] unArray)&#10;&#9;{&#9;&#9;&#10;&#9;&#9;int acumulada=0;&#9;&#9;&#10;&#9;&#9;int i=0;&#10;&#9;&#9;boolean enc=false;&#10;&#9;&#9;&#10;&#9;&#9;while ((i&lt;unArray.length)  &amp;&amp; !enc)&#10;&#9;&#9;{&#10;&#9;&#9;&#9;enc=(unArray[i]==acumulada)&amp;&amp; (unArray[i]%2==0);&#10;&#9;&#9;&#9;acumulada+=unArray[i];&#10;&#9;&#9;&#9;if (!enc) i++;&#10;&#9;&#9;}&#10;&#9;&#9;&#10;&#9;&#9;if (enc)&#10;&#9;&#9;&#9;return i;&#10;&#9;&#9;else&#10;&#9;&#9;&#9;return -1;&#10;&#9;&#9;&#10;&#9;&#9;&#10;&#9;}&#10;&#10;}&#10;" Filename="EjecutorG2_2.java" Intrnl_Id="1"/>
+<SrcFile Content="package g2_1;&#10;&#10;public class EjecutorG2_1 {&#10;&#9;&#10;&#9;public static int hexDigToDec (char unaLetra)&#10;&#9;{&#10;&#9;&#9;int ret=-1;&#10;&#9;&#9;boolean esCifra=false;&#10;&#9;&#9;boolean esLetraHex=false;&#10;&#9;&#9;&#10;&#9;&#9;//convierto todo a minusculas&#10;&#9;&#9;if (unaLetra&gt;='A' &amp;&amp; unaLetra&lt;='F')&#10;&#9;&#9;&#9;unaLetra=Character.toLowerCase(unaLetra);&#10;&#9;&#9;&#9;&#10;&#9;&#9;&#10;&#9;&#9;//compruebo si entrada está bien&#10;&#9;&#9;esLetraHex=(unaLetra&gt;='a' &amp;&amp; unaLetra&lt;='f');&#10;&#9;&#9;esCifra=(unaLetra&gt;='0' &amp;&amp; unaLetra&lt;='9');&#10;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#10;&#9;&#9;//proceso&#10;&#9;&#9;if (esCifra) //if (unaLetra&gt;='a' &amp;&amp; unaLetra&lt;='f') OR&#10;&#9;&#9;&#9;&#9;&#9;//(unaLetra&gt;='0' &amp;&amp; unaLetra&lt;='9')&#10;&#9;&#9;&#9;ret=Character.getNumericValue(unaLetra);&#10;&#9;&#9;else&#10;&#9;&#9;&#9;if(esLetraHex)&#10;&#9;&#9;&#9;&#9;ret=10+unaLetra-'a';&#10;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#10;&#9;&#10;&#9;&#9;&#10;&#9;&#9;&#10;&#9;&#9;return ret;&#10;&#9;}&#10;&#10;}&#10;" Filename="EjecutorG2_1.java" Intrnl_Id="2"/>
+</SrcFileList>
+<CritList>
+<CritListEntry Name="org.codecover.model.utils.criteria.LoopCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.QMOCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.ConditionCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.BranchCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.SynchronizedStatementCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.StatementCoverage" PluginName="org.codecover"/>
+</CritList>
+<BoolOpList>
+<BoolOp Arity="2" Intrnl_Id="3" Name="conditional and (&amp;&amp;)">
+<BoolAssgnmntBoolMapList>
+<MapEntry BoolAssgnmnt="02" Value="false"/>
+<MapEntry BoolAssgnmnt="10" Value="false"/>
+<MapEntry BoolAssgnmnt="11" Value="true"/>
+</BoolAssgnmntBoolMapList>
+</BoolOp>
+<BoolOp Arity="1" Intrnl_Id="4" Name="not (!)">
+<BoolAssgnmntBoolMapList>
+<MapEntry BoolAssgnmnt="1" Value="false"/>
+<MapEntry BoolAssgnmnt="0" Value="true"/>
+</BoolAssgnmntBoolMapList>
+</BoolOp>
+</BoolOpList>
+<HierarchyLvlTypeList>
+<HierarchyLvlType EnglishName="package" IntrnlName="package" Intrnl_Id="5"/>
+<HierarchyLvlType EnglishName="method" IntrnlName="method" Intrnl_Id="6"/>
+<HierarchyLvlType EnglishName="class" IntrnlName="class" Intrnl_Id="7"/>
+<HierarchyLvlType EnglishName="default package" IntrnlName="default package" Intrnl_Id="8"/>
+</HierarchyLvlTypeList>
+<MASTRoot>
+<HierarchyLvl HierarchyLvlId="27" HierarchyLvlTypeId="8" Intrnl_Id="9" Name="default package">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="25" HierarchyLvlTypeId="5" Intrnl_Id="10" Name="g2_2">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="22" HierarchyLvlTypeId="7" Intrnl_Id="11" Name="EjecutorG2_2">
+<Header>
+<Loc EndOffset="40" SrcFileId="1" StartOffset="15"/>
+</Header>
+<LocList>
+<Loc EndOffset="357" SrcFileId="1" StartOffset="15"/>
+</LocList>
+<HierarchyLvl HierarchyLvlId="21" HierarchyLvlTypeId="6" Intrnl_Id="12" Name="reRedonda">
+<Header>
+<Loc EndOffset="94" SrcFileId="1" StartOffset="51"/>
+</Header>
+<LocList>
+<Loc EndOffset="354" SrcFileId="1" StartOffset="51"/>
+</LocList>
+<StmntSeq Intrnl_Id="13">
+<LocList>
+<Loc EndOffset="118" SrcFileId="1" StartOffset="102"/>
+<Loc EndOffset="131" SrcFileId="1" StartOffset="123"/>
+<Loc EndOffset="152" SrcFileId="1" StartOffset="134"/>
+<Loc EndOffset="297" SrcFileId="1" StartOffset="158"/>
+<Loc EndOffset="345" SrcFileId="1" StartOffset="303"/>
+</LocList>
+<BasicStmnt CovItemId="S1" CovItemPrefix="g2_2.EjecutorG2_2.java" Intrnl_Id="14">
+<LocList>
+<Loc EndOffset="118" SrcFileId="1" StartOffset="102"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S2" CovItemPrefix="g2_2.EjecutorG2_2.java" Intrnl_Id="15">
+<LocList>
+<Loc EndOffset="131" SrcFileId="1" StartOffset="123"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S3" CovItemPrefix="g2_2.EjecutorG2_2.java" Intrnl_Id="16">
+<LocList>
+<Loc EndOffset="152" SrcFileId="1" StartOffset="134"/>
+</LocList>
+</BasicStmnt>
+<LoopStmnt CovItemId="S4" CovItemPrefix="g2_2.EjecutorG2_2.java" Intrnl_Id="17" MltplExecId="L1-2" MltplExecPrefix="g2_2.EjecutorG2_2.java" NvrExecId="L1-0" NvrExecPrefix="g2_2.EjecutorG2_2.java" OnceExecutedId="L1-1" OnceExecutedPrefix="g2_2.EjecutorG2_2.java" OptBodyExec="true">
+<StmntSeq Intrnl_Id="18">
+<LocList>
+<Loc EndOffset="249" SrcFileId="1" StartOffset="201"/>
+<Loc EndOffset="275" SrcFileId="1" StartOffset="253"/>
+<Loc EndOffset="293" SrcFileId="1" StartOffset="279"/>
+</LocList>
+<BasicStmnt CovItemId="S5" CovItemPrefix="g2_2.EjecutorG2_2.java" Intrnl_Id="19">
+<LocList>
+<Loc EndOffset="249" SrcFileId="1" StartOffset="201"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S6" CovItemPrefix="g2_2.EjecutorG2_2.java" Intrnl_Id="20">
+<LocList>
+<Loc EndOffset="275" SrcFileId="1" StartOffset="253"/>
+</LocList>
+</BasicStmnt>
+<CondStmnt CovItemId="S7" CovItemPrefix="g2_2.EjecutorG2_2.java" Intrnl_Id="21">
+<Branch CovItemId="B1" CovItemPrefix="g2_2.EjecutorG2_2.java" Implct="false" Intrnl_Id="22">
+<Cond/>
+<LocList>
+<Loc EndOffset="293" SrcFileId="1" StartOffset="289"/>
+</LocList>
+<StmntSeq Intrnl_Id="23">
+<LocList>
+<Loc EndOffset="293" SrcFileId="1" StartOffset="289"/>
+</LocList>
+<BasicStmnt CovItemId="S8" CovItemPrefix="g2_2.EjecutorG2_2.java" Intrnl_Id="24">
+<LocList>
+<Loc EndOffset="293" SrcFileId="1" StartOffset="289"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B2" CovItemPrefix="g2_2.EjecutorG2_2.java" Implct="true" Intrnl_Id="25">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="26">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="281" SrcFileId="1" StartOffset="279"/>
+<LocList>
+<Loc EndOffset="293" SrcFileId="1" StartOffset="279"/>
+</LocList>
+<RootTerm CovItemId="C2" CovItemPrefix="g2_2.EjecutorG2_2.java" Intrnl_Id="27">
+<OpTerm BooleanOpId="4" Intrnl_Id="28">
+<BasicBoolTerm Intrnl_Id="29">
+<LocList>
+<Loc EndOffset="287" SrcFileId="1" StartOffset="284"/>
+</LocList>
+</BasicBoolTerm>
+<LocList>
+<Loc EndOffset="284" SrcFileId="1" StartOffset="283"/>
+</LocList>
+</OpTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+<Keyword EndOffset="163" SrcFileId="1" StartOffset="158"/>
+<LocList>
+<Loc EndOffset="297" SrcFileId="1" StartOffset="158"/>
+</LocList>
+<RootTerm CovItemId="C1" CovItemPrefix="g2_2.EjecutorG2_2.java" Intrnl_Id="30">
+<OpTerm BooleanOpId="3" Intrnl_Id="31">
+<BasicBoolTerm Intrnl_Id="32">
+<LocList>
+<Loc EndOffset="182" SrcFileId="1" StartOffset="166"/>
+</LocList>
+</BasicBoolTerm>
+<OpTerm BooleanOpId="4" Intrnl_Id="33">
+<BasicBoolTerm Intrnl_Id="34">
+<LocList>
+<Loc EndOffset="192" SrcFileId="1" StartOffset="189"/>
+</LocList>
+</BasicBoolTerm>
+<LocList>
+<Loc EndOffset="189" SrcFileId="1" StartOffset="188"/>
+</LocList>
+</OpTerm>
+<LocList>
+<Loc EndOffset="187" SrcFileId="1" StartOffset="185"/>
+</LocList>
+</OpTerm>
+</RootTerm>
+</LoopStmnt>
+<CondStmnt CovItemId="S9" CovItemPrefix="g2_2.EjecutorG2_2.java" Intrnl_Id="35">
+<Branch CovItemId="B3" CovItemPrefix="g2_2.EjecutorG2_2.java" Implct="false" Intrnl_Id="36">
+<Cond/>
+<LocList>
+<Loc EndOffset="324" SrcFileId="1" StartOffset="315"/>
+</LocList>
+<StmntSeq Intrnl_Id="37">
+<LocList>
+<Loc EndOffset="324" SrcFileId="1" StartOffset="315"/>
+</LocList>
+<BasicStmnt CovItemId="S10" CovItemPrefix="g2_2.EjecutorG2_2.java" Intrnl_Id="38">
+<LocList>
+<Loc EndOffset="324" SrcFileId="1" StartOffset="315"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B4" CovItemPrefix="g2_2.EjecutorG2_2.java" Implct="false" Intrnl_Id="39">
+<Cond>
+<Loc EndOffset="331" SrcFileId="1" StartOffset="327"/>
+</Cond>
+<LocList>
+<Loc EndOffset="345" SrcFileId="1" StartOffset="335"/>
+</LocList>
+<StmntSeq Intrnl_Id="40">
+<LocList>
+<Loc EndOffset="345" SrcFileId="1" StartOffset="335"/>
+</LocList>
+<BasicStmnt CovItemId="S11" CovItemPrefix="g2_2.EjecutorG2_2.java" Intrnl_Id="41">
+<LocList>
+<Loc EndOffset="345" SrcFileId="1" StartOffset="335"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="305" SrcFileId="1" StartOffset="303"/>
+<LocList>
+<Loc EndOffset="345" SrcFileId="1" StartOffset="303"/>
+</LocList>
+<RootTerm CovItemId="C3" CovItemPrefix="g2_2.EjecutorG2_2.java" Intrnl_Id="42">
+<BasicBoolTerm Intrnl_Id="43">
+<LocList>
+<Loc EndOffset="310" SrcFileId="1" StartOffset="307"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="26" HierarchyLvlTypeId="5" Intrnl_Id="44" Name="g2_1">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="24" HierarchyLvlTypeId="7" Intrnl_Id="45" Name="EjecutorG2_1">
+<Header>
+<Loc EndOffset="40" SrcFileId="2" StartOffset="15"/>
+</Header>
+<LocList>
+<Loc EndOffset="658" SrcFileId="2" StartOffset="15"/>
+</LocList>
+<HierarchyLvl HierarchyLvlId="23" HierarchyLvlTypeId="6" Intrnl_Id="46" Name="hexDigToDec">
+<Header>
+<Loc EndOffset="91" SrcFileId="2" StartOffset="46"/>
+</Header>
+<LocList>
+<Loc EndOffset="655" SrcFileId="2" StartOffset="46"/>
+</LocList>
+<StmntSeq Intrnl_Id="47">
+<LocList>
+<Loc EndOffset="108" SrcFileId="2" StartOffset="97"/>
+<Loc EndOffset="133" SrcFileId="2" StartOffset="111"/>
+<Loc EndOffset="161" SrcFileId="2" StartOffset="136"/>
+<Loc EndOffset="279" SrcFileId="2" StartOffset="199"/>
+<Loc EndOffset="368" SrcFileId="2" StartOffset="324"/>
+<Loc EndOffset="412" SrcFileId="2" StartOffset="371"/>
+<Loc EndOffset="622" SrcFileId="2" StartOffset="435"/>
+<Loc EndOffset="652" SrcFileId="2" StartOffset="641"/>
+</LocList>
+<BasicStmnt CovItemId="S1" CovItemPrefix="g2_1.EjecutorG2_1.java" Intrnl_Id="48">
+<LocList>
+<Loc EndOffset="108" SrcFileId="2" StartOffset="97"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S2" CovItemPrefix="g2_1.EjecutorG2_1.java" Intrnl_Id="49">
+<LocList>
+<Loc EndOffset="133" SrcFileId="2" StartOffset="111"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S3" CovItemPrefix="g2_1.EjecutorG2_1.java" Intrnl_Id="50">
+<LocList>
+<Loc EndOffset="161" SrcFileId="2" StartOffset="136"/>
+</LocList>
+</BasicStmnt>
+<CondStmnt CovItemId="S4" CovItemPrefix="g2_1.EjecutorG2_1.java" Intrnl_Id="51">
+<Branch CovItemId="B1" CovItemPrefix="g2_1.EjecutorG2_1.java" Implct="false" Intrnl_Id="52">
+<Cond/>
+<LocList>
+<Loc EndOffset="279" SrcFileId="2" StartOffset="238"/>
+</LocList>
+<StmntSeq Intrnl_Id="53">
+<LocList>
+<Loc EndOffset="279" SrcFileId="2" StartOffset="238"/>
+</LocList>
+<BasicStmnt CovItemId="S5" CovItemPrefix="g2_1.EjecutorG2_1.java" Intrnl_Id="54">
+<LocList>
+<Loc EndOffset="279" SrcFileId="2" StartOffset="238"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B2" CovItemPrefix="g2_1.EjecutorG2_1.java" Implct="true" Intrnl_Id="55">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="56">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="201" SrcFileId="2" StartOffset="199"/>
+<LocList>
+<Loc EndOffset="279" SrcFileId="2" StartOffset="199"/>
+</LocList>
+<RootTerm CovItemId="C1" CovItemPrefix="g2_1.EjecutorG2_1.java" Intrnl_Id="57">
+<OpTerm BooleanOpId="3" Intrnl_Id="58">
+<BasicBoolTerm Intrnl_Id="59">
+<LocList>
+<Loc EndOffset="216" SrcFileId="2" StartOffset="203"/>
+</LocList>
+</BasicBoolTerm>
+<BasicBoolTerm Intrnl_Id="60">
+<LocList>
+<Loc EndOffset="233" SrcFileId="2" StartOffset="220"/>
+</LocList>
+</BasicBoolTerm>
+<LocList>
+<Loc EndOffset="219" SrcFileId="2" StartOffset="217"/>
+</LocList>
+</OpTerm>
+</RootTerm>
+</CondStmnt>
+<BasicStmnt CovItemId="S6" CovItemPrefix="g2_1.EjecutorG2_1.java" Intrnl_Id="61">
+<LocList>
+<Loc EndOffset="368" SrcFileId="2" StartOffset="324"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S7" CovItemPrefix="g2_1.EjecutorG2_1.java" Intrnl_Id="62">
+<LocList>
+<Loc EndOffset="412" SrcFileId="2" StartOffset="371"/>
+</LocList>
+</BasicStmnt>
+<CondStmnt CovItemId="S8" CovItemPrefix="g2_1.EjecutorG2_1.java" Intrnl_Id="63">
+<Branch CovItemId="B3" CovItemPrefix="g2_1.EjecutorG2_1.java" Implct="false" Intrnl_Id="64">
+<Cond/>
+<LocList>
+<Loc EndOffset="572" SrcFileId="2" StartOffset="532"/>
+</LocList>
+<StmntSeq Intrnl_Id="65">
+<LocList>
+<Loc EndOffset="572" SrcFileId="2" StartOffset="532"/>
+</LocList>
+<BasicStmnt CovItemId="S9" CovItemPrefix="g2_1.EjecutorG2_1.java" Intrnl_Id="66">
+<LocList>
+<Loc EndOffset="572" SrcFileId="2" StartOffset="532"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B4" CovItemPrefix="g2_1.EjecutorG2_1.java" Implct="false" Intrnl_Id="67">
+<Cond>
+<Loc EndOffset="579" SrcFileId="2" StartOffset="575"/>
+</Cond>
+<LocList>
+<Loc EndOffset="622" SrcFileId="2" StartOffset="583"/>
+</LocList>
+<StmntSeq Intrnl_Id="68">
+<LocList>
+<Loc EndOffset="622" SrcFileId="2" StartOffset="583"/>
+</LocList>
+<CondStmnt CovItemId="S10" CovItemPrefix="g2_1.EjecutorG2_1.java" Intrnl_Id="69">
+<Branch CovItemId="B5" CovItemPrefix="g2_1.EjecutorG2_1.java" Implct="false" Intrnl_Id="70">
+<Cond/>
+<LocList>
+<Loc EndOffset="622" SrcFileId="2" StartOffset="602"/>
+</LocList>
+<StmntSeq Intrnl_Id="71">
+<LocList>
+<Loc EndOffset="622" SrcFileId="2" StartOffset="602"/>
+</LocList>
+<BasicStmnt CovItemId="S11" CovItemPrefix="g2_1.EjecutorG2_1.java" Intrnl_Id="72">
+<LocList>
+<Loc EndOffset="622" SrcFileId="2" StartOffset="602"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B6" CovItemPrefix="g2_1.EjecutorG2_1.java" Implct="true" Intrnl_Id="73">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="74">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="585" SrcFileId="2" StartOffset="583"/>
+<LocList>
+<Loc EndOffset="622" SrcFileId="2" StartOffset="583"/>
+</LocList>
+<RootTerm CovItemId="C3" CovItemPrefix="g2_1.EjecutorG2_1.java" Intrnl_Id="75">
+<BasicBoolTerm Intrnl_Id="76">
+<LocList>
+<Loc EndOffset="596" SrcFileId="2" StartOffset="586"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="437" SrcFileId="2" StartOffset="435"/>
+<LocList>
+<Loc EndOffset="622" SrcFileId="2" StartOffset="435"/>
+</LocList>
+<RootTerm CovItemId="C2" CovItemPrefix="g2_1.EjecutorG2_1.java" Intrnl_Id="77">
+<BasicBoolTerm Intrnl_Id="78">
+<LocList>
+<Loc EndOffset="446" SrcFileId="2" StartOffset="439"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+<BasicStmnt CovItemId="S12" CovItemPrefix="g2_1.EjecutorG2_1.java" Intrnl_Id="79">
+<LocList>
+<Loc EndOffset="652" SrcFileId="2" StartOffset="641"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+</MASTRoot>
+</TestSessionContainer>

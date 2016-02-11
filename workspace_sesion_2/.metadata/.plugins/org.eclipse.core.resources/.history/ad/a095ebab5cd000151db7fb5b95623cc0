@@ -1,0 +1,23 @@
+package g2_2;
+
+public class ClaseRedonda {
+	
+	
+	 
+	static public int EjecutorG2_2 (int[] unArray, int tam)
+	{		
+		int acumulada=0;		
+		int i=0;
+		boolean enc=false;
+		
+		while ((i<tam) && (unArray[i]%2!=0) && !enc)
+		{
+			enc=unArray[i]==acumulada;
+			if (!enc) i++;
+			acumulada+=unArray[i];
+		}
+		
+		return i;
+	}
+
+}

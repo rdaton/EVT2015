@@ -1,0 +1,16 @@
+package g2_2;
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestG2_2 {
+	//Statement Coverage
+	@Test
+	redondaTest1 ()
+	{
+		
+	}
+	
+	
+
+}

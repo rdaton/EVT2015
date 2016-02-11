@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="196" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="474" key="dialogHeight"/>
 		<item value="634" key="dialogWidth"/>
@@ -22,7 +26,7 @@
 	<section name="ShowViewDialog">
 		<item value="359" key="DIALOG_WIDTH"/>
 		<item value="1|Sans|12.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-		<item value="org.codecover.eclipse.views.BooleanAnalyzer" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
+		<item value="org.codecover.eclipse.views.PickTestCaseView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
 		<item value="424" key="DIALOG_HEIGHT"/>
 		<item value="331" key="DIALOG_X_ORIGIN"/>
 		<item value="74" key="DIALOG_Y_ORIGIN"/>

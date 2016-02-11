@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activetestcases>
+<activetsc IMemento.internal.id="/g2/codecover/test-session-container-2016-02-11-04-42-13-139.xml"/>
+<tsc IMemento.internal.id="/g2/codecover/test-session-container-2016-02-11-04-42-13-139.xml">
+<ts IMemento.internal.id="11-feb-2016 4:45:12">
+<tc IMemento.internal.id="g2_3.TestG2_3:hexToDecTest2"/>
+</ts>
+</tsc>
+</activetestcases>

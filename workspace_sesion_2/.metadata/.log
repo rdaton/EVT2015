@@ -1682,3 +1682,813 @@ Was expecting one of:
 
 !ENTRY org.codecover.eclipse 1 0 2016-02-02 21:19:51.790
 !MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-02-20-57-21-211.xml
+!SESSION 2016-02-11 00:53:58.491 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_66-internal
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.team.core 4 0 2016-02-11 00:54:14.419
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project g2_1.
+!STACK 1
+org.eclipse.team.core.TeamException: Could not instantiate provider org.eclipse.egit.core.GitProvider for project g2_1.
+	at org.eclipse.team.core.RepositoryProvider.mapNewProvider(RepositoryProvider.java:165)
+	at org.eclipse.team.core.RepositoryProvider.mapExistingProvider(RepositoryProvider.java:235)
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:507)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.isMappedToCVS(CVSLightweightDecorator.java:192)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.decorate(CVSLightweightDecorator.java:147)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:370)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:330)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.team.core 4 0 2016-02-11 00:54:14.422
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project g2_1.
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 02:36:18.468
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 02:52:53.476
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 02:53:36.299
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 02:55:00.018
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 02:57:11.911
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:03:54.574
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:03:54.624
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-03-54-622.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:04:24.537
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 23 coverable items in 3 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:05:10.989
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:05:11.009
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-05-10-998.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:06:18.395
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:06:18.419
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-06-18-418.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:06:28.609
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-05-10-998.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:06:29.090
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:09:03.987
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 46 coverable items in 3 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:09:20.843
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:09:20.853
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-09-20-851.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:09:25.052
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:09:25.059
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-09-25-057.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:09:38.558
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 23 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:10:43.765
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:10:43.771
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-10-43-769.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:10:53.818
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-09-25-057.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:10:54.034
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:10:56.015
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 19 coverable items in 3 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:11:45.145
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 19 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:14:06.115
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 4 0 2016-02-11 03:14:06.470
+!MESSAGE [FATAL] An error occured when trying to compile the instrumented sources.
+
+!ENTRY org.eclipse.core.resources 4 2 2016-02-11 03:14:06.472
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 75 2016-02-11 03:14:06.488
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2016-02-11 03:14:06.488
+!MESSAGE Errors running builder 'Java Builder' on project 'g2_1'.
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:14:50.775
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:15:14.518
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:17:20.385
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:17:20.399
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-17-20-397.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:18:56.939
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:18:56.956
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-18-56-947.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:21:20.661
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:21:20.674
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-21-20-672.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:21:44.300
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:21:44.305
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-21-44-303.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:22:04.853
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-10-43-769.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:22:05.357
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:22:11.240
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 24 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:33:27.023
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:42:37.168
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:42:37.176
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-42-37-173.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:42:43.434
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-21-44-303.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:42:43.846
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:42:51.712
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 47 coverable items in 2 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:42:57.263
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:42:57.270
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-42-57-268.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:43:42.012
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:43:42.019
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-43-42-017.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:43:49.799
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 47 coverable items in 2 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:43:57.653
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 47 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:44:03.128
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 47 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:44:21.396
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:44:21.401
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-44-21-400.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:44:32.987
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:44:32.992
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-44-32-990.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:44:47.386
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 23 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:44:53.844
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 23 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:45:10.761
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:45:10.765
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-45-10-764.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:45:25.836
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:45:25.843
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-45-25-841.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:46:01.956
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:46:01.963
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-46-01-960.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:46:08.453
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-44-32-990.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:46:08.876
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:46:10.716
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 24 coverable items in 4 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:49:23.103
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 4 0 2016-02-11 03:49:23.341
+!MESSAGE [FATAL] An error occured when trying to compile the instrumented sources.
+
+!ENTRY org.eclipse.core.resources 4 2 2016-02-11 03:49:23.346
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 75 2016-02-11 03:49:23.353
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2016-02-11 03:49:23.353
+!MESSAGE Errors running builder 'Java Builder' on project 'g2_1'.
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:49:59.864
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:50:55.240
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 24 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:51:41.804
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 24 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:51:55.780
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:51:55.786
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-51-55-784.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:54:29.576
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:54:29.589
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-03-54-29-580.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:54:39.039
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 24 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:55:35.075
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 24 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:55:35.951
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 24 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:55:36.714
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 24 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:55:38.668
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 24 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:57:50.981
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 03:59:15.704
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:00:20.639
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 24 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:01:07.206
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:01:12.875
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:01:21.877
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:01:49.524
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 24 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:02:49.037
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 24 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:02:55.441
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 24 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:02:56.191
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 24 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:04:46.056
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:04:46.067
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-04-04-46-058.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:06:05.636
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2_1/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:06:05.648
+!MESSAGE Wrote test session container: /g2_1/codecover/test-session-container-2016-02-11-04-06-05-646.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:06:20.904
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:06:20.908
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-06-20-906.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:06:50.803
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:06:50.807
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-06-50-806.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:14:15.669
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:14:15.674
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-14-15-672.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:14:34.672
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:14:34.687
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-14-34-685.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:24:14.987
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:24:14.992
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-24-14-990.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:24:24.000
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:24:24.008
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-24-24-003.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:24:29.935
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:24:29.940
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-24-29-938.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:27:16.850
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:27:16.863
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-27-16-861.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:29:46.496
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:29:46.501
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-29-46-500.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:34:21.195
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:34:21.201
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-34-21-199.xml
+
+!ENTRY org.codecover.eclipse 4 0 2016-02-11 04:34:21.470
+!MESSAGE [FATAL] An error occured when trying to compile the instrumented sources.
+
+!ENTRY org.eclipse.core.resources 4 2 2016-02-11 04:34:21.474
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 75 2016-02-11 04:34:21.496
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2016-02-11 04:34:21.496
+!MESSAGE Errors running builder 'Java Builder' on project 'g2'.
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:34:30.490
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:34:30.498
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-34-30-497.xml
+
+!ENTRY org.codecover.eclipse 4 0 2016-02-11 04:34:30.668
+!MESSAGE [FATAL] An error occured when trying to compile the instrumented sources.
+
+!ENTRY org.eclipse.core.resources 4 2 2016-02-11 04:34:30.669
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 75 2016-02-11 04:34:30.672
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2016-02-11 04:34:30.672
+!MESSAGE Errors running builder 'Java Builder' on project 'g2'.
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:34:53.531
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:34:53.539
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-34-53-537.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:36:19.948
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:36:19.953
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-36-19-952.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:37:01.466
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:37:01.470
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-37-01-468.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:37:10.832
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:37:10.837
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-37-10-835.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:37:51.184
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:37:51.189
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-37-51-187.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:38:01.482
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 16 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:38:55.165
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:39:36.267
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 16 coverable items in 1 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:41:19.541
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:41:35.569
+!MESSAGE Calculated coverage for 6 metrics, 2 test cases and 16 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:41:49.561
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:42:13.135
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:42:13.140
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-42-13-139.xml
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:42:25.377
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 16 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:44:33.828
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 4 0 2016-02-11 04:44:33.980
+!MESSAGE [FATAL] An error occured when trying to compile the instrumented sources.
+
+!ENTRY org.eclipse.core.resources 4 2 2016-02-11 04:44:33.981
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 75 2016-02-11 04:44:33.984
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2016-02-11 04:44:33.984
+!MESSAGE Errors running builder 'Java Builder' on project 'g2'.
+!STACK 0
+org.codecover.model.utils.FatalException: A fatal error occured: An error occured when trying to compile the instrumented sources.
+	at org.codecover.model.utils.Logger.log(Logger.java:50)
+	at org.codecover.model.utils.Logger.log(Logger.java:65)
+	at org.codecover.model.utils.Logger.log(Logger.java:78)
+	at org.codecover.model.utils.Logger.fatal(Logger.java:92)
+	at org.codecover.eclipse.builder.CodeCoverCompilationParticipant.buildStarting(CodeCoverCompilationParticipant.java:355)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.notifyParticipants(AbstractImageBuilder.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:288)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:44:56.032
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:45:26.095
+!MESSAGE Calculated coverage for 6 metrics, 1 test cases and 16 coverable items in 0 ms
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:45:53.606
+!MESSAGE Additional classes added to:
+/home/barfelix/EVT2015/workspace_sesion_2/.metadata/.plugins/org.eclipse.core.resources/.projects/g2/org.codecover.eclipse/src
+
+!ENTRY org.codecover.eclipse 1 0 2016-02-11 04:47:51.105
+!MESSAGE Wrote test session container: /g2/codecover/test-session-container-2016-02-11-04-42-13-139.xml

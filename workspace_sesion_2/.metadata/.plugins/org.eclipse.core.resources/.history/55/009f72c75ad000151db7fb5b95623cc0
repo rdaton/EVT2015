@@ -1,0 +1,11 @@
+package g2_2;
+
+public class ClaseRedonda {
+	static public int encuentraPrimeraRedonda (int[] unArray)
+	{
+		int pos=-1;
+		
+		return pos;
+	}
+
+}

@@ -1,0 +1,28 @@
+package g2_2;
+
+public class EjecutorG2_2 {
+	
+	
+	 
+	static public int reRedonda (int[] unArray)
+	{		
+		int acumulada=0;		
+		int i=0;
+		boolean enc=false;
+		
+		while ((i<unArray.length)  && !enc)
+		{
+			enc=(unArray[i]==acumulada)&& (unArray[i]%2==0);
+			acumulada+=unArray[i];
+			if (!enc) i++;
+		}
+		
+		if (enc)
+			return i;
+		else
+			return -1;
+		
+		
+	}
+
+}

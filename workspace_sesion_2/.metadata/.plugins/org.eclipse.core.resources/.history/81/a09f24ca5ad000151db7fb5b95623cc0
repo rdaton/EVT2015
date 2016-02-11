@@ -1,0 +1,25 @@
+package g2_2;
+
+public class ClaseRedonda {
+	
+	
+	 
+	static public int encuentraPrimeraRedonda (int[] unArray, int tam)
+	{
+		int pos=-1;
+		int acumulada=0;
+		boolean enc=false;
+		int i=0;
+		
+		while ((i<tam) && (unArray[i]%2!=0) && (unArray[i]==acumulada))
+		{
+			i++;
+			acum+=unArray[i];
+		}
+			
+		
+		
+		return pos;
+	}
+
+}

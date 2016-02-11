@@ -1,0 +1,20 @@
+package g2_3;
+
+public class EjecutorG2_3 {
+	
+		static public int hexToDec(String palabra)
+		{
+			int unNumero=0;			
+			int ptro=0;
+			
+			for (int i=0;i<palabra.length();i++)
+			{
+				ptro=unHex.hexDigToDec(palabra.charAt(i));
+				if (ptro==-1) return -1;
+				unNumero*=16;
+				unNumero+=ptro;				
+			}
+			
+			return unNumero;
+		}
+}

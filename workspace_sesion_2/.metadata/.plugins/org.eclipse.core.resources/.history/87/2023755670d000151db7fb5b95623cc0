@@ -1,0 +1,16 @@
+package g2_3;
+
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestG2_3 {
+	//Statement Coverage
+	@Test
+	public void hexToDecTest1()
+	{
+		
+	}
+
+}
